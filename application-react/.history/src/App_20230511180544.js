@@ -22,7 +22,7 @@ function App() {//Cette fonction est un composant
     //  avec une valeur de départ de 10 et extrait la fonction "setMonState" qui permet de mettre à jour cette valeur.
     //   La ligne suivante affiche cette fonction dans la console.
 // ----------------------
-    const modifyState = () => {  //On crée la fonction pour l'évéenement oneClick du bouton ci dessous
+    const modifyState = () => {//On crée la fonction pour l'évéenement oneClick du bouton ci dessous
       setMonState(20);//Permet de modifier le contenu, en modifiant la valeur à 20 au lieu de 10
     }
 

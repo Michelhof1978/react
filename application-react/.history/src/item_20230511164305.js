@@ -4,4 +4,4 @@ function Item(){
     
 }
 
-export default Item; //Toujours exporter le composant et on va par la suite l importer ds App.js, pas besoin de mettre le .js, react détecte automatiquement
+export default Item; //Toujours exporter le composant et on va par la suite l importer ds App.js, pas besoin de mettre
