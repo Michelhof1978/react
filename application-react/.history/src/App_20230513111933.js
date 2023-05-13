@@ -32,9 +32,8 @@ function App() {//Cette fonction est un composant
       <button onClick={modifyState}>Change state</button> {/*On ajoute un événement au bouton, par contre en jsx, on rajoute on suivi de la majuscule, entre les accolades, on attents une fonction ici modifyState */}
      
      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio at pariatur ab nulla, </p>
-      
       <Item txt={"Hello word depuis Item"} />  {/*On récupére le composant Item de Item.js */}
-      <Item number={monState} />{/*On peut nommer les Items comme on veut*/}
+      <Item number={monState} />//F
       <Item txt={"Hello word Italie"} />{/*On peut afficher plusieurs messages avec le même composant*/}
      
     </div>

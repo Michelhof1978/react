@@ -1,4 +1,4 @@
-import { useState } from "react";
+import
 
 
 //Creation d un composant pour soit affichage, faire un calcul ou de la logique ..., lors de la création du fichier, on mets une majuscule au debut du nom de fichier par convention
