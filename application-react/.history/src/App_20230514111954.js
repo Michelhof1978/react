@@ -27,13 +27,12 @@ function App() {//Cette fonction est un composant
      
     //   setMonState(20);//Permet de modifier le contenu, en modifiant la valeur à 20 au lieu de 10
    
-    //Le composant va se mettre à jour lors du clic et passera de 10 à 20
-//--------------------------------------------
+    }//Le composant va se mettre à jour lors du clic et passera de 10 à 20
+
     const modifyState = (data) => {
-      setMonState(data);
-      // console.log(data);
+     
+      console.log(data);
     }
-//----------------------------------------------
     return (
 
       <div className="App">  {/* Ce n est pas du html mais du jsx, ici on ne mets pas class mais className pour du jsx*/}

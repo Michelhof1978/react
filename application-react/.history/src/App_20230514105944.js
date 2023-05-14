@@ -23,17 +23,15 @@ function App() {//Cette fonction est un composant
     //  avec une valeur de départ de 10 et extrait la fonction "setMonState" qui permet de mettre à jour cette valeur.
     //   La ligne suivante affiche cette fonction dans la console.
 // ----------------------
-    // const modifyState = () => {  //On crée la fonction pour l'événement oneClick du bouton ci dessous
+    const modifyState = () => {  //On crée la fonction pour l'événement oneClick du bouton ci dessous
      
-    //   setMonState(20);//Permet de modifier le contenu, en modifiant la valeur à 20 au lieu de 10
+      setMonState(20);//Permet de modifier le contenu, en modifiant la valeur à 20 au lieu de 10
    
-    //Le composant va se mettre à jour lors du clic et passera de 10 à 20
-//--------------------------------------------
+    }//Le composant va se mettre à jour lors du clic et passera de 10 à 20
+
     const modifyState = (data) => {
-      setMonState(data);
-      // console.log(data);
+      console.log
     }
-//----------------------------------------------
     return (
 
       <div className="App">  {/* Ce n est pas du html mais du jsx, ici on ne mets pas class mais className pour du jsx*/}
